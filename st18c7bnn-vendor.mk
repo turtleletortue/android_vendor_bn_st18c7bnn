@@ -313,4 +313,12 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.r_submix.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt8163.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.usb.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt8163.so \
+    vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmctaplugin.so:system/lib/mtkdrm/libdrmctaplugin.so \
+    vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmmtkplugin.so:system/lib/mtkdrm/libdrmmtkplugin.so \
+
+    
