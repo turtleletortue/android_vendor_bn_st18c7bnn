@@ -112,11 +112,13 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/cdma_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/cdma_ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list_OP01.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/cdma_ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list_OP09.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/cdma_ecc_list_OP12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list_OP12.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/cdma_ecc_list_ss.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list_ss.xml \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP09.xml \
@@ -127,22 +129,34 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/drm_key_query.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/drm_key_query.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/kisd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/kisd.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/md_ctrl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_ctrl.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/merged_hal_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/merged_hal_service.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/rilproxy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rilproxy.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/rpmb_svc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmb_svc.rc \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymanage@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymanage@1.0-service.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.0-service.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/init/wifi2agps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi2agps.rc \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
+    vendor/bn/st18c7bnn/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/bn/st18c7bnn/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -156,10 +170,12 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/bn/st18c7bnn/proprietary/vendor/firmware/WIFI_RAM_CODE_8163:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_8163 \
     vendor/bn/st18c7bnn/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl-mediatek.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.primary.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.r_submix.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.usb.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt8163.so \
@@ -172,6 +188,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/power.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/sensors.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.0-impl.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.0-impl.so \
@@ -179,19 +196,30 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lbs_hidl_service-impl.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/lib3am.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3am.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libClearMotionFW.so:$(TARGET_COPY_OUT_VENDOR)/lib/libClearMotionFW.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libGdmaScalerPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGdmaScalerPipe.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libJpgDecPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxAdpcmEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmEnc.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxG711Dec.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxRawDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxRawDec.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libMtkOmxVorbisEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVorbisEnc.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libPQDCjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPQDCjni.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libPQjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPQjni.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libRSDriver_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_mtk.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libSwJpgCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSwJpgCodec.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_video_secure_al.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdk.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
@@ -211,6 +239,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.camadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camadapter.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.campipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.campipe.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.camshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camshot.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.client.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.device1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.device1.so \
@@ -220,6 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.iopipe_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe_FrmB.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.metadataprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.metadataprovider.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.paramsmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.paramsmgr.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam.utils.cpuctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.cpuctrl.so \
@@ -236,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcam_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam_utils.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcamalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcamdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libcamdrv_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_FrmB.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libccap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccap.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
@@ -246,17 +277,22 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libfeatureio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureio.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libfeatureiodrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libforkexecwrap.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libfpspolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpspolicy.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libhdrproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrproc.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifcutils_mtk.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libimageio_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_FrmB.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libimageio_plat_drv_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv_FrmB.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libispfeaturem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispfeaturem.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libksensor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libmhalImageCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so \
@@ -298,9 +334,12 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/librrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librrc.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/libtz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtz_uree.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/liburee_meta_drmkeyinstall_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
@@ -321,10 +360,15 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0_vendor.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.keymanage@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymanage@1.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so
