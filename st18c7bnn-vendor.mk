@@ -62,6 +62,8 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/lib/libpq_cust_mtk.so:system/lib/libpq_cust_mtk.so \
     vendor/bn/st18c7bnn/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
     vendor/bn/st18c7bnn/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmctaplugin.so:system/lib/mtkdrm/libdrmctaplugin.so \
+    vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmmtkplugin.so:system/lib/mtkdrm/libdrmmtkplugin.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.camera.device@1.1.so:system/lib/vendor.mediatek.hardware.camera.device@1.1.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.dfps@1.0.so:system/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:system/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
@@ -70,15 +72,23 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.pq@2.0.so:system/lib/vendor.mediatek.hardware.pq@2.0.so
 PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/drm_key_query:$(TARGET_COPY_OUT_VENDOR)/bin/drm_key_query \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service-mediatek \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/merged_hal_service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/merged_hal_service \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/power_native_test:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/rilproxy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rilproxy \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.0-service \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.0-service \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/md_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_ctrl \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/mtkcam-debug:$(TARGET_COPY_OUT_VENDOR)/bin/mtkcam-debug \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/mtkrild:$(TARGET_COPY_OUT_VENDOR)/bin/mtkrild \
@@ -87,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/resize2fs:$(TARGET_COPY_OUT_VENDOR)/bin/resize2fs \
+    vendor/bn/st18c7bnn/proprietary/vendor/bin/rpmb_svc:$(TARGET_COPY_OUT_VENDOR)/bin/rpmb_svc \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/rs2spir:$(TARGET_COPY_OUT_VENDOR)/bin/rs2spir \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/spir2cl:$(TARGET_COPY_OUT_VENDOR)/bin/spir2cl \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
@@ -145,10 +156,13 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/bn/st18c7bnn/proprietary/vendor/firmware/WIFI_RAM_CODE_8163:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_8163 \
     vendor/bn/st18c7bnn/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl-mediatek.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.primary.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8163.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.r_submix.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt8163.so \
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.usb.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/gatekeeper.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
@@ -313,12 +327,4 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0_vendor.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service:$(TARGET_COPY_OUT_VENDOR)/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.r_submix.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt8163.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/audio.usb.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt8163.so \
-    vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmctaplugin.so:system/lib/mtkdrm/libdrmctaplugin.so \
-    vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmmtkplugin.so:system/lib/mtkdrm/libdrmmtkplugin.so \
-
-    
+    vendor/bn/st18c7bnn/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so
