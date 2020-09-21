@@ -17,29 +17,73 @@
 PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/bin/atcid:system/bin/atcid \
     vendor/bn/st18c7bnn/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
+    vendor/bn/st18c7bnn/proprietary/bin/badblocks:system/bin/badblocks \
+    vendor/bn/st18c7bnn/proprietary/bin/batterywarning:system/bin/batterywarning \
+    vendor/bn/st18c7bnn/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
     vendor/bn/st18c7bnn/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
     vendor/bn/st18c7bnn/proprietary/bin/ged_srv:system/bin/ged_srv \
+    vendor/bn/st18c7bnn/proprietary/bin/hdmi:system/bin/hdmi \
     vendor/bn/st18c7bnn/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
+    vendor/bn/st18c7bnn/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
+    vendor/bn/st18c7bnn/proprietary/bin/met-cmd:system/bin/met-cmd \
+    vendor/bn/st18c7bnn/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/bn/st18c7bnn/proprietary/bin/sn:system/bin/sn \
     vendor/bn/st18c7bnn/proprietary/bin/storagemanagerd:system/bin/storagemanagerd \
+    vendor/bn/st18c7bnn/proprietary/bin/terservice:system/bin/terservice \
+    vendor/bn/st18c7bnn/proprietary/bin/tertestclient:system/bin/tertestclient \
     vendor/bn/st18c7bnn/proprietary/bin/thermald:system/bin/thermald \
+    vendor/bn/st18c7bnn/proprietary/bin/vintf:system/bin/vintf \
+    vendor/bn/st18c7bnn/proprietary/bin/wfd:system/bin/wfd \
+    vendor/bn/st18c7bnn/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
     vendor/bn/st18c7bnn/proprietary/etc/apdb/APDB_MT8163_S01_alps-mp-o1.mp5_W18.22:system/etc/apdb/APDB_MT8163_S01_alps-mp-o1.mp5_W18.22 \
     vendor/bn/st18c7bnn/proprietary/etc/apdb/APDB_MT8163_S01_alps-mp-o1.mp5_W18.22_ENUM:system/etc/apdb/APDB_MT8163_S01_alps-mp-o1.mp5_W18.22_ENUM \
+    vendor/bn/st18c7bnn/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/bn/st18c7bnn/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
+    vendor/bn/st18c7bnn/proprietary/etc/audio_policy_configuration_stub.xml:system/etc/audio_policy_configuration_stub.xml \
+    vendor/bn/st18c7bnn/proprietary/etc/audio_policy_volumes.xml:system/etc/audio_policy_volumes.xml \
     vendor/bn/st18c7bnn/proprietary/etc/bluetooth/mtk_bt_fw.conf:system/etc/bluetooth/mtk_bt_fw.conf \
     vendor/bn/st18c7bnn/proprietary/etc/bluetooth/mtk_bt_stack.conf:system/etc/bluetooth/mtk_bt_stack.conf \
+    vendor/bn/st18c7bnn/proprietary/etc/default_volume_tables.xml:system/etc/default_volume_tables.xml \
     vendor/bn/st18c7bnn/proprietary/etc/init/atcid.rc:system/etc/init/atcid.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/audiocmdservice_atci.rc:system/etc/init/audiocmdservice_atci.rc \
+    vendor/bn/st18c7bnn/proprietary/etc/init/batterywarning.rc:system/etc/init/batterywarning.rc \
+    vendor/bn/st18c7bnn/proprietary/etc/init/bootlogoupdater.rc:system/etc/init/bootlogoupdater.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/dm_agent_binder.rc:system/etc/init/dm_agent_binder.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/ged_srv.rc:system/etc/init/ged_srv.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/init.thermald.rc:system/etc/init/init.thermald.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/sn.rc:system/etc/init/sn.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
+    vendor/bn/st18c7bnn/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
     vendor/bn/st18c7bnn/proprietary/etc/permissions/mediatek-packages-teleservice.xml:system/etc/permissions/mediatek-packages-teleservice.xml \
     vendor/bn/st18c7bnn/proprietary/etc/permissions/privapp-permissions-mediatek.xml:system/etc/permissions/privapp-permissions-mediatek.xml \
+    vendor/bn/st18c7bnn/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/bn/st18c7bnn/proprietary/etc/tee.img:system/etc/tee.img \
+    vendor/bn/st18c7bnn/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
+    vendor/bn/st18c7bnn/proprietary/etc/wifi-apns.xml:system/etc/wifi-apns.xml \
+    vendor/bn/st18c7bnn/proprietary/lib/libCore.so:system/lib/libCore.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libMiraVision_jni.so:system/lib/libMiraVision_jni.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaal.so:system/lib/libaal.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libafdrm1.so:system/lib/libafdrm1.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaudiopolicycustomextensions.so:system/lib/libaudiopolicycustomextensions.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libaudiotoolkit.so:system/lib/libaudiotoolkit.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libbluetooth_mtk_pure_system.so:system/lib/libbluetooth_mtk_pure_system.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libbluetooth_relayer_system.so:system/lib/libbluetooth_relayer_system.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libbluetoothem_mtk_system.so:system/lib/libbluetoothem_mtk_system.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libcorrect_hw_rotation.so:system/lib/libcorrect_hw_rotation.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
     vendor/bn/st18c7bnn/proprietary/lib/libcustom_nvram_mtk.so:system/lib/libcustom_nvram_mtk.so \
     vendor/bn/st18c7bnn/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/bn/st18c7bnn/proprietary/lib/libem_audio_jni.so:system/lib/libem_audio_jni.so \
     vendor/bn/st18c7bnn/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
     vendor/bn/st18c7bnn/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
@@ -47,29 +91,69 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
     vendor/bn/st18c7bnn/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
     vendor/bn/st18c7bnn/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libepub3.so:system/lib/libepub3.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libepubdecrypt.so:system/lib/libepubdecrypt.so \
     vendor/bn/st18c7bnn/proprietary/lib/libfile_op_mtk.so:system/lib/libfile_op_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libfw_drmutils.so:system/lib/libfw_drmutils.so \
     vendor/bn/st18c7bnn/proprietary/lib/libged_kpi.so:system/lib/libged_kpi.so \
     vendor/bn/st18c7bnn/proprietary/lib/libged_sys.so:system/lib/libged_sys.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/bn/st18c7bnn/proprietary/lib/libgralloc_extra_sys.so:system/lib/libgralloc_extra_sys.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libgui_debug.so:system/lib/libgui_debug.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libhdmiservice.so:system/lib/libhdmiservice.so \
     vendor/bn/st18c7bnn/proprietary/lib/libhwm_mtk.so:system/lib/libhwm_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libimagepipeline.so:system/lib/libimagepipeline.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libitype.so:system/lib/libitype.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libj2v8.so:system/lib/libj2v8.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libja3m.so:system/lib/libja3m.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libkmsetkey.so:system/lib/libkmsetkey.so \
+    vendor/bn/st18c7bnn/proprietary/lib/liblocSDK6c.so:system/lib/liblocSDK6c.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libmesh.so:system/lib/libmesh.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libminiui.so:system/lib/libminiui.so \
     vendor/bn/st18c7bnn/proprietary/lib/libmtk_drvb_sys.so:system/lib/libmtk_drvb_sys.so \
     vendor/bn/st18c7bnn/proprietary/lib/libmtkavenhancements.so:system/lib/libmtkavenhancements.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libmtkbluetooth_jni.so:system/lib/libmtkbluetooth_jni.so \
     vendor/bn/st18c7bnn/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/bn/st18c7bnn/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libnetworklocation.so:system/lib/libnetworklocation.so \
     vendor/bn/st18c7bnn/proprietary/lib/libnvram_mtk.so:system/lib/libnvram_mtk.so \
     vendor/bn/st18c7bnn/proprietary/lib/libnvram_platform_mtk.so:system/lib/libnvram_platform_mtk.so \
     vendor/bn/st18c7bnn/proprietary/lib/libnvram_sec_mtk.so:system/lib/libnvram_sec_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libpdfhost.so:system/lib/libpdfhost.so \
     vendor/bn/st18c7bnn/proprietary/lib/libpq_cust_mtk.so:system/lib/libpq_cust_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libsf_debug.so:system/lib/libsf_debug.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libstagefright_froyo.so:system/lib/libstagefright_froyo.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libstagefright_honeycomb.so:system/lib/libstagefright_honeycomb.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libstagefright_wfd_mtk.so:system/lib/libstagefright_wfd_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libstlport_shared.so:system/lib/libstlport_shared.so \
     vendor/bn/st18c7bnn/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libterservice.so:system/lib/libterservice.so \
     vendor/bn/st18c7bnn/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libvsync_enhance.so:system/lib/libvsync_enhance.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libvsync_hint.so:system/lib/libvsync_hint.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libwifitest_mtk.so:system/lib/libwifitest_mtk.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libxtables.so:system/lib/libxtables.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libysshared.so:system/lib/libysshared.so \
+    vendor/bn/st18c7bnn/proprietary/lib/libyv12util.so:system/lib/libyv12util.so \
     vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmctaplugin.so:system/lib/mtkdrm/libdrmctaplugin.so \
     vendor/bn/st18c7bnn/proprietary/lib/mtkdrm/libdrmmtkplugin.so:system/lib/mtkdrm/libdrmmtkplugin.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.camera.device@1.1.so:system/lib/vendor.mediatek.hardware.camera.device@1.1.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.dfps@1.0.so:system/lib/vendor.mediatek.hardware.dfps@1.0.so \
+    vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.keymanage@1.0.so:system/lib/vendor.mediatek.hardware.keymanage@1.0.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:system/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.nvram@1.0.so:system/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.power@1.1.so:system/lib/vendor.mediatek.hardware.power@1.1.so \
-    vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.pq@2.0.so:system/lib/vendor.mediatek.hardware.pq@2.0.so
+    vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.pq@2.0.so:system/lib/vendor.mediatek.hardware.pq@2.0.so \
+    vendor/bn/st18c7bnn/proprietary/lib/vendor.mediatek.hardware.radio@2.0.so:system/lib/vendor.mediatek.hardware.radio@2.0.so
 PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/bn/st18c7bnn/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
