@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
     vendor/bn/st18c7bnn/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
     vendor/bn/st18c7bnn/proprietary/bin/ged_srv:system/bin/ged_srv \
-    vendor/bn/st18c7bnn/proprietary/bin/hdmi:system/bin/hdmi \
     vendor/bn/st18c7bnn/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/bn/st18c7bnn/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
     vendor/bn/st18c7bnn/proprietary/bin/met-cmd:system/bin/met-cmd \
@@ -102,8 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/bn/st18c7bnn/proprietary/lib/libgralloc_extra_sys.so:system/lib/libgralloc_extra_sys.so \
     vendor/bn/st18c7bnn/proprietary/lib/libgui_debug.so:system/lib/libgui_debug.so \
-    vendor/bn/st18c7bnn/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
-    vendor/bn/st18c7bnn/proprietary/lib/libhdmiservice.so:system/lib/libhdmiservice.so \
     vendor/bn/st18c7bnn/proprietary/lib/libhwm_mtk.so:system/lib/libhwm_mtk.so \
     vendor/bn/st18c7bnn/proprietary/lib/libimagepipeline.so:system/lib/libimagepipeline.so \
     vendor/bn/st18c7bnn/proprietary/lib/libitype.so:system/lib/libitype.so \
@@ -266,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/gatekeeper.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
-    vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/keystore.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
     vendor/bn/st18c7bnn/proprietary/vendor/lib/hw/power.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt8163.so \
