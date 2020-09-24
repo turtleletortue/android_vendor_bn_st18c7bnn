@@ -17,9 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/bin/atcid:system/bin/atcid \
     vendor/bn/st18c7bnn/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
-    vendor/bn/st18c7bnn/proprietary/bin/badblocks:system/bin/badblocks \
     vendor/bn/st18c7bnn/proprietary/bin/batterywarning:system/bin/batterywarning \
-    vendor/bn/st18c7bnn/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
     vendor/bn/st18c7bnn/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
     vendor/bn/st18c7bnn/proprietary/bin/ged_srv:system/bin/ged_srv \
     vendor/bn/st18c7bnn/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
@@ -46,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c7bnn/proprietary/etc/init/atcid.rc:system/etc/init/atcid.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/audiocmdservice_atci.rc:system/etc/init/audiocmdservice_atci.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/batterywarning.rc:system/etc/init/batterywarning.rc \
-    vendor/bn/st18c7bnn/proprietary/etc/init/bootlogoupdater.rc:system/etc/init/bootlogoupdater.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/dm_agent_binder.rc:system/etc/init/dm_agent_binder.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/ged_srv.rc:system/etc/init/ged_srv.rc \
     vendor/bn/st18c7bnn/proprietary/etc/init/init.thermald.rc:system/etc/init/init.thermald.rc \
